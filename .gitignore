@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Data (re-downloadable with `python -m src.data_loader`)
+data/raw/*.csv
+data/processed/*.csv
+
+# Models
+models/*.joblib
+
+data/raw/openligadb/
+data/raw/clubelo/
